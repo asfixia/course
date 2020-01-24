@@ -1,0 +1,81 @@
+[IDENTIFICATION]
+title = 'Prodes - Monitoramento do Desmatamento na Amazônia Legal'
+description = 'Monitoramento do desmatamento da Amazônia Legal de 1997 a 2017. 
+Observação: Os rasters originais do prodes de 2014, 2015, 2016 e de 2017 foram combinados, resultando em uma nova versão com toda a série histórica de desmatamento.
+
+Number of Columns : 59121
+Cell Height : 60.0
+Cell Width : 60.0
+Number of Layers : 1
+Null Cell Value : 0.0
+Number of Lines : 44504
+Cell Type : Byte'
+
+source = 'Projeto PRODES - Instituto Nacional de Pesquisas Espaciais (INPE)
+Link para download: http://www.obt.inpe.br/prodes/index.php
+http://www.dpi.inpe.br/prodesdigital/prodes.php
+Datas dos mapeamentos: 1997, 1999 a 2017
+Data de acesso: outubro de 2018'
+citation = 'Instituto Nacional de Pesquisas Espaciais - INPE (2018) Projeto Prodes - Monitoramento de Desmatamento na Amazônia Legal (base digital georreferenciada). São José dos Campos, Brasil: INPE. Disponível em: <http://www.obt.inpe.br/prodes/index.php>.'
+original scale = 'Não informada'
+thematic category = 'vegetacao - (035)'
+
+
+[SPATIAL REPRESENTATION SYSTEM]
+creation date = 2018
+original format = 'matricial (002)'
+coordinate system representation = 'PROJCS["South_America_Albers_Equal_Area_Conic",
+    GEOGCS["GCS_South_American_1969",
+        DATUM["South_American_1969",
+            SPHEROID["GRS_1967",6378160,298.2499999999919]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433]],
+    PROJECTION["Albers_Conic_Equal_Area"],
+    PARAMETER["standard_parallel_1",-5],
+    PARAMETER["standard_parallel_2",-42],
+    PARAMETER["latitude_of_center",-32],
+    PARAMETER["longitude_of_center",-60],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1]]'
+
+[CATEGORIES]
+aditional information = ''
+1 = 'Hidrografia'
+2 = 'Nuvem'
+3 = 'Floresta'
+4 = 'Não Floresta'
+5 = 'Resíduos'
+6 = 'Desmatamento anterior a 1997 (do prodes 2015)'
+7 = 'Desmatamento observado em 2012 e anterior (do prodes 2016)'
+8 = 'Floresta inundada (do prodes 2016)'
+10 = 'Resíduos de 2013 (do prodes 2016)'
+11 = 'Resíduos de 2014 (do prodes 2016)'
+12 = 'Resíduos de 2015 (do prodes 2016)'
+13 = 'Resíduos de 2016 (do prodes 2016)'
+14 = 'Desmatamento observado em 1997 e 1999'
+15 = 'Desmatamento observado em 2000'
+16 = 'Desmatamento observado em 2001'
+17 = 'Desmatamento observado em 2002'
+18 = 'Desmatamento observado em 2003'
+19 = 'Desmatamento observado em 2004'
+20 = 'Desmatamento observado em 2005'
+21 = 'Desmatamento observado em 2006'
+22 = 'Desmatamento observado em 2007'
+23 = 'Desmatamento observado em 2008'
+24 = 'Desmatamento observado em 2009'
+25 = 'Desmatamento observado em 2010'
+26 = 'Desmatamento observado em 2011'
+27 = 'Desmatamento observado em 2012'
+28 = 'Desmatamento observado em 2013'
+29 = 'Desmatamento observado em 2014'
+30 = 'Desmatamento observado em 2015'
+31 = 'Desmatamento observado em 2016'
+32 = 'Desmatamento observado em 2017'
+
+[RANGE]
+layer_0 = '(Min=1.000,Max=32.000)'
+
+[METAMETADATA]
+updated = '2019/07/04'
+publishers = 'Centro de Sensoriamento Remoto - CSR/UFMG'
